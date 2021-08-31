@@ -6,7 +6,7 @@ export default () => {
   return(
     <div className="container">
       <h1>Welcome to Parcel x Reactjs</h1>
-      <strong>edit <code>src/Routes/Main/index.js</code> to make change</strong>
+      <strong>edit <code>src/App.js</code> to make change</strong>
     </div>
   )
 };

@@ -3,8 +3,11 @@
     ["module-resolver", {
       "root": "./src",
       "alias": {
-        "@components": "./src/components"
+        "@components": "./src/components",
+        "@image": "./src/assets/img",
+        "@styles": "./src/assets/scss"
       }
-    }]
+    }],
+    ["react-hot-loader/babel"]
   ]
 }

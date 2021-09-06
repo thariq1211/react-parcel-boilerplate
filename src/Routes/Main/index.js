@@ -1,12 +1,18 @@
 import React from 'react';
-import { useHistory } from 'react-router-dom';
+import { string } from 'prop-types';
+import '@styles/app.scss';
 
-export default () => {
-  const history = useHistory();
+const Main = ({appName}) => {
   return(
     <div className="container">
-      <h1>Welcome to Parcel x Reactjs</h1>
+      <h1>Welcome to {appName}</h1>
       <strong>edit <code>src/App.js</code> to make change</strong>
     </div>
   )
 };
+
+Main.propTypes = {
+  appName: string.isRequired
+};
+
+export default Main;

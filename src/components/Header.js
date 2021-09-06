@@ -1,5 +1,6 @@
 import React from 'react';
 import ParcelLogo from '@image/parcel-logo.svg';
+import '@styles/app.scss';
 
 const Header = () => (
   <header>

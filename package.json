@@ -10,6 +10,18 @@
   "keywords": [],
   "author": "M Thariq Nugroho",
   "license": "ISC",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
   "devDependencies": {
     "@babel/core": "^7.15.0",
     "@types/react": "^15.0.0 || ^16.0.0 || ^17.0.0 ",

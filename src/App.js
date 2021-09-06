@@ -13,7 +13,7 @@ class HelloMessage extends React.Component {
           <Switch>
             <React.Suspense fallback={null}>
               <Route path="/" exact>
-                <Main />
+                <Main appName="React x Parcel App" />
               </Route>
             </React.Suspense>
           </Switch>
